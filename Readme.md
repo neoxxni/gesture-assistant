@@ -1,13 +1,13 @@
-# Gesture Assistant 🖐️
+# Gesture Assistant
 
 A Python-based, hands-free desktop controller that uses real-time hand tracking to interact with your computer through gestures.
 
 ## Features
 - **Air Mouse:** Move the cursor using your index finger, with smoothing for more controlled movement.
 - **Gesture Click:** Pinch your thumb and index finger to click and hold.
-- **Volume Control:** Adjust system volume using hand gestures (thumbs up/ down).
-- **Quick Actions:** Open Spotify and capture screenshots with specific gestures (peace and palm up gesture).
-- **Toggle Control:** Enable or disable gesture-based controls using a hand (closed fist) gesture.
+- **Volume Control:** Adjust system volume using thumb-position gestures.
+- **Quick Actions:** Open Spotify with a peace sign and capture screenshots with an open-palm gesture.
+- **Toggle Control:** Enable or disable gesture controls using a closed-fist gesture.
 
 ## Tech Stack
 Python · OpenCV · MediaPipe · PyAutoGUI
