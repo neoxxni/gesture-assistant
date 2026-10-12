@@ -11,7 +11,7 @@ mp_hands=mp.solutions.hands
 mp_draw=mp.solutions.drawing_utils
 hands=mp_hands.Hands()
 
-camera=cv2.VideoCapture(0)
+camera=cv2.VideoCapture(1)
 
 screen_width,screen_height=pyautogui.size()
 print(screen_width,screen_height)
@@ -143,6 +143,3 @@ while True:
 camera.release()
 cv2.destroyAllWindows()
 
-#Drag drop
-#Scroll
-#Left/Right
